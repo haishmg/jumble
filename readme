@@ -1,0 +1,4 @@
+The program accepts a string as input, and then return a list of words that can be created using the submitted letters.
+For example, on the input "dog", the program should return a set of words including "god", "do", and "go".
+
+This program doesnot use any combinatorics helper modules or imports (e.g. itertools in Python)

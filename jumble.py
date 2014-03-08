@@ -58,6 +58,8 @@ if __name__ == '__main__':
      #Check if the word is already present in the dict  
      if ip not in pattern :   
          populate_valid(ip)
-         
-     print "The words are:",pattern[ip]
+     if ip in pattern :
+       print "The words are:",pattern[ip]
+     else :
+       print "No valid words found"     
   
